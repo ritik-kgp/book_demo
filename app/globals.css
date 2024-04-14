@@ -18,8 +18,21 @@
   border: 1px solid #000; /* Optional: adds a border for better visibility */
 }
 
+.magnify-button:hover{
+  cursor: pointer;
+}
+
+.demagnify-button:hover{
+  cursor: pointer;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.custom-selection::highlight {
+  background-color: rgba(255, 255, 0, 0.4);  
+  color: black;  
 }
